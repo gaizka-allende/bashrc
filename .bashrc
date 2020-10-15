@@ -1,7 +1,6 @@
 #   -----------------------------
 #   MAKE TERMINAL BETTER
 #   -----------------------------
-
 alias cp='cp -iv'                           # Preferred 'cp' implementation
 alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
@@ -19,6 +18,8 @@ alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
 alias which='type -all'                     # which:        Find executables
 mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and jumps inside
+alias lock="/usr/bin/dm-tool lock" 
+
 
 #   ---------------------------
 #   SEARCHING
