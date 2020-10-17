@@ -18,7 +18,9 @@ alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
 alias which='type -all'                     # which:        Find executables
 mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and jumps inside
-alias lock="/usr/bin/dm-tool lock" 
+alias lock="/usr/bin/dm-tool lock"
+alias vpn="sudo openvpn --config ~/vpn/ipvanish-UK-London-lon-a25.ovpn --ca ~/vpn/ca.ipvanish.com.crt" 
+alias space="df -Bm"                        #check empty space
 
 
 #   ---------------------------
