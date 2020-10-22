@@ -21,7 +21,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and ju
 alias lock="/usr/bin/dm-tool lock"
 alias vpn="sudo openvpn --config ~/vpn/ipvanish-UK-London-lon-a25.ovpn --ca ~/vpn/ca.ipvanish.com.crt" 
 alias space="df -Bm"                        #check empty space
-
+alias emptyBin="rm -rf ~/.local/share/Trash/*" #empty bin 
 
 #   ---------------------------
 #   SEARCHING
